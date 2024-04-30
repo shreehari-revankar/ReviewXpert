@@ -227,7 +227,7 @@ class Extract:
     def analysisYoutubeComment(self):
       api_service_name = "youtube"
       api_version = "v3"
-      DEVELOPER_KEY = "AIzaSyAkKbBZc55W1LWSds22Dwks0wxqHjh_fzk"
+      DEVELOPER_KEY = ""
 
       self.youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=DEVELOPER_KEY)
       result = self.getcomments(self.pp.hashtag)
