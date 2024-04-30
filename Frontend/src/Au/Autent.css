@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+.my-body {
+    background: url(https://eu-images.contentstack.com/v3/assets/bltdccbaa6efb9c8771/blt236ecf9444008839/64b63aa4c4fec8720652f456/proper-review-analysis-how-to-analyze-customer-reviews-examples.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.au-container {
+
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.au-container > form {
+    width: 70%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+/*input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 9%;
+}
+
+pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+}
+
+button {
+    background: #05b462 !important;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+*/
+.ui p {
+    color: rgb(255, 0, 0);
+}
+
+.au-text {
+    margin: 2px;
+    padding: 5px;
+}
+
+.au-text a { 
+    color: rgb(97, 191, 249);
+    cursor: pointer;
+}

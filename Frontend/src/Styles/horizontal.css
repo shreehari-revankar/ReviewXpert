@@ -1,0 +1,48 @@
+.horizontal-bars {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  
+  .bar-container {
+    height: auto;
+    min-height: 50px;
+    align-items: center;
+    background: #fff;
+    border-radius: 6px;
+    padding: 0px 20px;
+    margin-top: 0.6rem;
+    border: 1px solid #dfdede;
+    display: flex !important;
+    box-sizing: border-box;
+  }
+  
+  .workspace_details a {
+    font-weight: 600; 
+    font-size: 16px; 
+    color: #11141D; 
+    text-decoration: none; 
+    line-height: 20px;
+  }
+
+  .workspace_detials a:hover { 
+    color: #f8714c;
+}
+
+.workspace_detials  { 
+    height: auto; 
+    min-height: 50px; 
+    align-items: center; 
+    background: #fff; 
+    border-radius: 6px; 
+    padding: 0px 20px; 
+    margin-top: 0.6rem; 
+    border: 1px solid #dfdede;
+} 
+  
+.d-flex { 
+  display: flex!important;
+} 
+ 
+  
